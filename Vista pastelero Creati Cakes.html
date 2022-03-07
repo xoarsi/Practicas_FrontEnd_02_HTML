@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creati Cakes Vista pastelero</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <img src="https://github.com/xoarsi/Practicas_FrontEnd_02_HTML/blob/main/Logo%20CreatiCakes.png?raw=true" alt="Logo de Dulces mimos" width="250 px">
+            <h1>Creati Cakes</h1>
+            <h2>Bienvenido, administrador:</h2>
+            <article class="article">
+                <h3>Iniciar sesión</h3>
+                <label for="iniciosesión">Usuario</label>
+                <input type="text" id="iniciosesión" name="iniciosesión"><br><br>
+                <label for="contraseña">Contraseña</label>
+                <input type="text" id="contraseña" name="contraseña">
+                <br><br>
+                <input type="button" id="ingresar" name="ingresar" value="Ingresar"<br><br>
+                <a href="https://i.blogs.es/5f249e/ayuda2/450_1000.jpg">Olvidé mi contraseña</a>
+            </article>
+            <hr>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Mi cuenta
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Agenda
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Pedidos
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Inventario
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Clientes
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Seguimiento de sugerencias
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <section id="contenido">
+            <article class="article">
+                <h3>Mi cuenta</h3>
+                <img src="https://lienzart.files.wordpress.com/2015/02/pastelera-01.png" alt="foto usuario" width="100px" height="80px">
+                <ul>
+                    <li>Usuario: Anadh_CC</li>
+                    <li>Nombre completo: Ana Domínguez Herrera</li>
+                    <li>Correo electrónico vinculado: ana_dh@creaticakes.com</li>
+                    <li>Fecha de registro: 02/01/2022</li>
+                    <li>Puesto: Creati Baker</li>
+                </ul>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Agenda</h3>
+                <iframe src="https://calendar.google.com/calendar/embed?src=7p2jp6i6apojj001upseslh4i0%40group.calendar.google.com&ctz=America%2FMexico_City" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <hr>
+            </article>
+            <article class="article">
+                <h3>Pedidos</h3>
+            <p>-Pedidos a domicilio</p>
+                <table border="1" id="domicilio">
+                    <thead>
+                        <tr>
+                            <th>ID pedido</th>
+                            <th>Fecha entrega</th>
+                            <th>Nombre cliente</th>
+                            <th colspan="2">
+                                Bizcocho</th>
+                            <th colspan="2">
+                                Relleno</th>
+                            <th colspan="3">
+                                Cobertura</th>
+                            <th>Decoraciones</th>
+                            <th>Descripción general</th>
+                            <th>Foto referencia</th>
+                            <th>Comentarios adicionales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Los macarons de color dorado rellenos de chocolate amargo. La caja totalmente cubierta, azul marino con moño dorado. </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <p>-Pedidos para recoger en tienda</p>
+
+                <table border="1" id="recoger">
+                    <thead>
+                        <tr>
+                            <th>ID pedido</th>
+                            <th>Fecha entrega</th>
+                            <th>Nombre cliente</th>
+                            <th colspan="2">
+                                Bizcocho</th>
+                            <th colspan="2">
+                                Relleno</th>
+                            <th colspan="3">
+                                Cobertura</th>
+                            <th>Decoraciones</th>
+                            <th>Descripción general</th>
+                            <th>Foto referencia</th>
+                            <th>Comentarios adicionales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>020122JSF</td>
+                            <td>18/03/22</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>Chico</td>
+                            <td>Vainilla</td>
+                            <td>1</td>
+                            <td>Crema batida</td>
+                            <td>Crema de mantequilla</td>
+                            <td>Chocolate</td>
+                            <td>Café oscuro</td>
+                            <td>Macarons, letrero, abanico de chocolate</td>
+                            <td>Pastel con letrero de ¡Felicidades, papá!, con alisado perfecto y con manchas doradas, abanico dorado.
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof5XknCteBxvXkqxHEZxzFrxAvQUXwZjY2w&usqp=CAU" alt="Foto de referencia del pastel" width="150px" height="150px"></td>
+                            </td>
+                            <td>Comentario adicional</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Inventario</h3>
+                <iframe width="950" height="655" frameborder="0" scrolling="no" src="https://innovaccion-my.sharepoint.com/personal/launchx03932_innovaccion_mx/_layouts/15/Doc.aspx?sourcedoc={302a2ada-0245-45b0-8d1a-47488f20d763}&action=embedview&AllowTyping=True&Item='Sheet1'!A1%3AL30&wdInConfigurator=True"></iframe>
+                <br><br>
+                <p>Vista de Inventario en OneDrive<br>
+                (En caso de que no se visualice la vista previa)</p>
+                <a href="https://innovaccion-my.sharepoint.com/:x:/g/personal/launchx03932_innovaccion_mx/EdoqKjBFArBFjRpHSI8g12MBbLnvMD6uiYTn4s4jt1b40A?e=e5Dd9j" target="blank">Link a inventario</a>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Clientes</h3>
+                <table border="1" id="clientes">
+                    <thead>
+                        <tr>
+                            <th>Nombre completo</th>
+                            <th>Teléfono principal</th>
+                            <th>Teléfono alternativo</th>
+                            <th>Correo electrónico</th>
+                            <th>Dirección</th>
+                            <th>ID pedido</th>
+                            <th>Fecha pedido</th>
+                            <th>Fecha entrega</th>
+                            <th>Estatus</th>
+                            <th>Pago</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Juan Silva Fernández</td>
+                            <td>5567367299</td>
+                            <td>5577210988</td>
+                            <td>juansilva@gmail.com</td>
+                            <td>Calle Hidalgo #5, col. San Andrés, CP:56700, CDMX</td>
+                            <td>020122JSF</td>
+                            <td>02/01/22</td>
+                            <td>18/03/22</td>
+                            <td>En proceso</td>
+                            <td>Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Rosa Jiménez Cruz</td>
+                            <td>5567251622</td>
+                            <td>5577210958</td>
+                            <td>roji01@gmail.com</td>
+                            <td>Av. San Antonio, #42, col. Santa Elena, CP: 34677, Edo.Méx.</td>
+                            <td>020122JSF</td>
+                            <td>07/02/22</td>
+                            <td>18/03/22</td>
+                            <td>En proceso</td>
+                            <td>Anticipo 70%</td>
+                        </tr>
+                        <tr>
+                            <td>Diana Hernández Pérez</td>
+                            <td>5567181622</td>
+                            <td>5577210118</td>
+                            <td>diana012@gmail.com</td>
+                            <td>Calle Matamoros, #2, Barrio La Conchita, CP: 32377, CDMX</td>
+                            <td>020222DHP</td>
+                            <td>02/02/22</td>
+                            <td>20/03/22</td>
+                            <td>En proceso</td>
+                            <td>Anticipo 60%</td>
+                        </tr>
+                        <tr>
+                            <td>Mario Rivero Frías</td>
+                            <td>5567100617</td>
+                            <td>5577211082</td>
+                            <td>m_rivero@gmail.com</td>
+                            <td>Calle Temazcalcingo, #17, Colonia La Concepción, CP: 11277, CDMX</td>
+                            <td>150222MRF</td>
+                            <td>15/02/22</td>
+                            <td>04/03/22</td>
+                            <td>Entregado</td>
+                            <td>Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Silva Fernández</td>
+                            <td>5567367299</td>
+                            <td>5577210988</td>
+                            <td>juansilva@gmail.com</td>
+                            <td>Calle Hidalgo #5, col. San Andrés, CP:56700, CDMX</td>
+                            <td>020122JSF</td>
+                            <td>02/01/22</td>
+                            <td>18/03/22</td>
+                            <td>En proceso</td>
+                            <td>Pagado</td>
+                        </tr>
+                        <tr>
+                            <td>Rosa Jiménez Cruz</td>
+                            <td>5567251622</td>
+                            <td>5577210958</td>
+                            <td>roji01@gmail.com</td>
+                            <td>Av. San Antonio, #42, col. Santa Elena, CP: 34677, Edo.Méx.</td>
+                            <td>020122JSF</td>
+                            <td>07/02/22</td>
+                            <td>18/03/22</td>
+                            <td>En proceso</td>
+                            <td>Anticipo 70%</td>
+                        </tr>
+                        <tr>
+                            <td>Diana Hernández Pérez</td>
+                            <td>5567181622</td>
+                            <td>5577210118</td>
+                            <td>diana012@gmail.com</td>
+                            <td>Calle Matamoros, #2, Barrio La Conchita, CP: 32377, CDMX</td>
+                            <td>020222DHP</td>
+                            <td>02/02/22</td>
+                            <td>20/03/22</td>
+                            <td>En proceso</td>
+                            <td>Anticipo 60%</td>
+                        </tr>
+                        <tr>
+                            <td>Mario Rivero Frías</td>
+                            <td>5567100617</td>
+                            <td>5577211082</td>
+                            <td>m_rivero@gmail.com</td>
+                            <td>Calle Temazcalcingo, #17, Colonia La Concepción, CP: 11277, CDMX</td>
+                            <td>150222MRF</td>
+                            <td>15/02/22</td>
+                            <td>04/03/22</td>
+                            <td>Entregado</td>
+                            <td>Pagado</td>
+                        </tr>
+                    </tbody>
+                </table> 
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Seguimiento de sugerencias</h3>
+                <table border="1" id="sugerencias">
+                    <thead>
+                        <tr>
+                            <th>Asunto</th>
+                            <th>Nombre completo</th>
+                            <th>Correo electrónico</th>
+                            <th>Comentario cliente</th>
+                            <th>Comentario Creti Cakes</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Queja</td>
+                            <td>Juan Silva Fernández</td>
+                            <td>juansilva@gmail.com<</td>
+                            <td>El repartidor fue grosero y entregó tarde el pedido.</td>
+                            <td>Se revisó el nombre del repartidor, se le comentó lo sucedido y él explicó la situación
+                                Se le ofreció una disculpa al cliente y un cupón de descuento, el repartidor estará en observación.</td>
+                            <td>Resuelto</td>
+                        </tr>
+                        <tr>
+                            <td>Sugerencia</td>
+                            <td>Rosa Jiménez Cruz</td>
+                            <td>roji01@gmail.com</td>
+                            <td>Me gustaría que añadieran sabor pistache en los rellenos.</td>
+                            <td>Se están haciendo encuestas a los clientes para calcular su viabilidad. Se revisarán posibles saborizantes y harán pruebas de rellenos.</td>
+                            <td>En proceso</td>
+                        </tr>
+                        <tr>
+                            <td>Comentario</td>
+                            <td>Mario Rivero Frías</td>
+                            <td>m_rivero@gmail.com</td>
+                            <td>Me gustaría ver si pueden hacerme otro pastel con más personalizaciones, para un evento de bautizo.</td>
+                            <td>Se le contactó al cliente por correo, esperando concretar una cita por videollamada con él para saber su idea y ver las opciones</td>
+                            <td>En proceso</td>
+                        </tr>
+                        <tr>
+                            <td>Comentario</td>
+                            <td>Alba Palacios Cruz</td>
+                            <td>albapc@gmail.com</td>
+                            <td>Quiero un pastel distinto a sus opciones</td>
+                            <td>Se le contactó al cliente por correo, esperando concretar una cita por videollamada para saber su idea y ver las opciones</td>
+                            <td>En proceso</td>
+                        </tr>
+                    </tbody>
+                </table>        
+            </article>
+        </section>
+        <hr>
+        <footer>
+            <br><br>
+            &copyCreati Cakes. Todos los derechos reservados. 
+        </footer>
+    </div>
+</body>
+</html>
