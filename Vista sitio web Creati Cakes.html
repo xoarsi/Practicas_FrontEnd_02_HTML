@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creati Cakes sitio web</title>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <img src="https://github.com/xoarsi/Practicas_FrontEnd_02_HTML/blob/main/Logo%20CreatiCakes.png?raw=true" alt="Logo de Creati Cakes" width="250 px">
+            <h1>Creati Cakes</h1>
+            <h2>Lo imaginas, lo horneamos...</h2>
+            <hr>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        ¿Quiénes somos?
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Crea tu pastel
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Galería
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Opiniones
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        Contáctanos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <section id="contenido">
+            <article class="article">
+                <h3>¡Bienvenidos!</h3>
+                <p>En Creati Cakes podemos crear el pastel de tus sueños: Lo imaginas, lo horneamos... ¡deja volar tu creatividad! </p>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>¿Quiénes somos?</h3>
+                <p>Creati Cakes es un proyecto ideado y fundado por Dulces Mimos, que nació a partir de la idea de ofrecer pasteles únicos y personalizados, sin olvidar el rico sabor casero que nos caracteriza. Tú eliges desde los sabores, hasta las decoraciones. Cada pastel
+                    se hace de forma casera y cuidando cada detalle. Nuestra meta es elaborar el pastel de tus sueños, ofreciendo una experiencia única. Nuestro establecimiento se encuentra en la CDMX, y los envíos son dentro de CDMX y área metropolitana. Sin embargo, estamos
+                    trabajando para poder expandirnos a un lugar cerca de ti.
+                    <br>¡Recuerda que el límite es tu imaginación!
+                    <br><br>
+                </p>
+                <img src="https://i0.wp.com/blog.scoolinary.com/wp-content/uploads/2020/07/Cremas-b%C3%A1sicas-en-pasteler%C3%ADa.jpg?fit=1000%2C667&ssl=1" alt="Personas decorando pasteles" width="600px" height="200px">
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Crea tu pastel</h3>
+                <p>¿Estás listo para la magia?
+                Haz click en el siguiente botón para que podamos comenzar a hacer realidad tu pastel ideal. </p>
+                <a href="./Formulario pedidos Creati Cakes.html" target="blank"> <button>Hacer pedido</button> </a>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Galería</h3>
+                <p>¿Te quedaste sin ideas?
+                <br>No te preocupes, aquí puedes ver algunos de los pasteles que hemos realizado. ¡Inspírate!</p>
+                <img src="https://i.pinimg.com/564x/d2/97/cb/d297cbda02abb0be9d0af3fb77921282.jpg" alt="Pastel fantasía con macarons" width="230px" height="300px">
+                <img src="https://3.bp.blogspot.com/-jkCvhzPGqNQ/W8s8turk6gI/AAAAAAAAMZI/pSImVVuT3oAzUlWYvDeqEWwissndH4nSACLcBGAs/s1600/9c8d7ad66cefc1c3a9f201ac2facf234.jpg" alt="Pastel de boda con flores comestibles" width="200px" height="300px">
+                <img src="https://i.pinimg.com/originals/d9/d0/25/d9d02517eda281e286c3952fd6eb5c41.jpg" alt="Pastel con fruta" width="230px" height="300px">
+                <img src="https://i.pinimg.com/originals/77/4f/bc/774fbce217c94526ecb6769658970e38.jpg" alt="Pastel con decoraciones de chocolate" width="230px" height="300px">
+                <img src="https://i.pinimg.com/originals/90/a3/aa/90a3aa7f3639a2ec5ee72485df6723ac.jpg" alt="Pastel con merenguitos y paletas de dulce" width="230px" height="300px">
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Opiniones</h3>
+                <p>Revisa las opiniones de nuestros clientes o ingresa la tuya.</p>
+                <p>Opiniones de clientes</p>
+                <ul>
+                    <li>Pablo Ramírez Pérez</li> 
+                    <p>¡Me gustó mucho el diseño de mi pastel y a todos los invitados, incluyéndome nos encanto el sabor!</p> <input type="range" list="calificación"><br><br>
+                    <li>Carmen Silva Fragoso</li>
+                    <p>La atención fue muy buena y me ayudaron a logar el pastel de mis sueños.</p><input type="range" list="calificación"><br><br>
+                    <li>Estefania Delgado Plaza</li>
+                    <p>El pastel estuvo muy rico, pero me gustaría que ampliaran el rango de envíos.</p> <input type="range" list="calificación"><br><br>
+                </ul>
+                <p>Mi opinión</p>
+                <label for="opinombre">Nombre completo</label>
+                <input type="text" id="opinombre" name="opinombre"><br><br>
+                <label for="Opinión">Tu Opinión</label>
+                <input type="text" id="opinión" name="opinión" style="width: 200pt; height: 30pt"><br><br>
+                <label for="calificación">¿Del 1 al 10, cómo calificarías tu experiencia en Creati Cakes?</label><br>
+                <input type="range" list="calificación">
+                <datalist id="calificación">
+                  <option value="10">
+                  <option value="20">
+                  <option value="30">
+                  <option value="40">
+                  <option value="50">
+                  <option value="60">
+                  <option value="70">
+                  <option value="80">
+                  <option value="90">
+                  <option value="10">
+                </datalist>
+                <br><br>
+                <input type="button" id="Enviar" name="enviar" value="Enviar" onclick="alert('Se ha enviado tu opinión, en breve aparecerá en el sitio.')"><br>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>Contáctanos</h3>
+                <p>En Creati Cakes mejoramos constantemente gracias a sus comentarios. 
+                Si tienes alguna sugerencia, comentario, queja, o cualquier otra cuestión, háznoslo saber.</p>
+                <label for="nombrecom">Tu nombre completo</label><br>
+                <input type="text" id="nombrecom" name="nombrecom" value="Nombre Apellidos">
+                <br><label for="correo">Tu correo</label><br>
+                <input type="text" id="correo" name="correo" value="correo@correo.com">
+                <br><label for="asunto">Asunto</label><br>
+                <input type="text" id="asunto" name="asunto" value="Sugerencia, comentario, queja, otro...">
+                <br><label for="comentario">Comentario</label><br>
+                <input type="text" id="comentario" name="comentario" value="Tu comentario">
+                <br><br>
+                <input type="button" id="Enviar" name="enviar" value="Enviar" onclick="alert('Se ha enviado tu mensaje, lo revisaremos y en breve te contactaremos.')"><br>
+                <br><br><br>
+                </article>
+        </section>
+        <hr>
+        <footer>
+            <p>Contacto <br>
+                Calle Buenaventura #4, col. Centro, CP:58700, CDMX. Teléfono: 5573676764. Correo electrónico: info@creaticakes.com Horarios de atención: Lunes a viernes de 8 am a 7 pm. Sábados y domingos de 10 am a 3 pm</p>
+            <p>Nuestras redes</p>
+            <img src="https://s3-sa-east-1.amazonaws.com/img.decodecms/entradas/Tema%20Twenty%20Seventeen/redes-sociale-tema.png" alt="Nuestras redes sociales" width="500px" height="70px"><br><br>
+            &copyCreati Cakes. Todos los derechos reservados. 
+            <a href="https://www.marketingguerrilla.es/preguntas-frecuentes-que-deberian-figurar-en-las-faqs-de-tu-tienda-online/" target="blank">Preguntas frecuentes</a> 
+            <a href="https://bestreference.com.mx/assets/terminos_y_condiciones.pdf" target="blank">Términos y Condiciones</a> 
+        </footer>
+    </div>
+</body>
+</html>
